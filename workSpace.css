@@ -1,0 +1,487 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 1600px;
+	margin: 0 auto;
+}
+
+header>img{
+	position: relative;
+}
+
+header>div{
+	position: absolute;
+	top: 30px;
+	left:auto;
+	margin-left: 52px;	
+}
+
+#input{
+	margin-left: 1396px;
+}
+
+#input p{
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 1px;
+	/*line-height: auto;*/
+	color: rgb(51,51,51);
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#register{
+	margin-right: 40px;
+}
+
+#logo{
+	height: 43px;
+	width: 121px;	
+}
+
+#itJobLogo{
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-family: 'Josefin Slab', serif;
+
+}
+
+#accel{
+	font-size: 8.9px;
+	/*line-height: auto;*/
+	letter-spacing: 0.89px;
+	font-stretch: condensed;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(51,51,51);
+}
+
+.mainText{
+	font-size: 62px;
+	font-family: 'Rajdhani', sans-serif;
+	color: rgb(255,255,255);
+	background-color: rgb(59,83,107);
+	letter-spacing: 1px;
+	line-height: 50px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left:30px;  
+}
+
+#firstinmain{
+	width: 521px;
+	margin-bottom: 15px;
+	margin-top: 490px;
+	opacity: 1;	
+}
+
+#mouse{
+	width: 144px;
+	margin-left: 728px;
+	cursor: pointer;
+	-webkit-animation: rotation 3s infinite alternate-reverse ;
+}
+
+#mouse:hover{
+	margin-top: 15px;
+	
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(-10deg);
+		}
+		to {
+				-webkit-transform: rotate(10deg);
+		}
+}
+
+#mainTextdiv{
+	opacity: 0.7;
+}
+
+#secondinmain{
+	width: 966px;
+}
+
+#first{
+	height: 740px;
+	margin-top: -5px;
+	background-color:rgb(255,255,255);
+}
+
+#first>h1{
+	font-size: 48px;
+	/*line-height: auto;*/
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 105px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#first>div{
+	width: auto;
+	margin-top: 30px;
+	align-self: center;
+	margin-left: 366px;
+}
+
+#first>div>p{
+	font-family: 'Rajdhani', sans-serif;
+	letter-spacing: 1px;
+	font-weight:bold;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 27px;
+	color: rgb(119,119,119);
+}
+
+#first>section{
+	width: 1214px;
+	margin-left: 196px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.square{
+	width: 395px;
+	height: 395px;
+	border: 47px solid white;
+}
+
+#workSpaceLogo{
+	background-color: rgb(158,163,91);
+	cursor: pointer;
+}
+
+#workSpaceLogo>img{
+	margin-left: 82px;
+	margin-top: 50px;
+
+}
+
+#workSpaceFrame{
+	margin-top: 45px;
+	border:4px solid white;
+	width: 404px;
+}
+
+#workSpaceFrame:hover{
+	border:4px solid rgb(158,163,91);
+}
+
+
+#startupLogoFrame{
+	margin-top: 45px;
+	border:4px solid white;
+	width: 404px;
+}
+
+#startupLogoFrame:hover{
+	border:4px solid rgb(208,165,62);
+}
+
+
+#StartupLogo{
+	background-color: rgb(208,165,62);
+	cursor: pointer;
+	position: relative;
+}
+
+#StartupLogo>img{
+	margin-left: 97.5px;
+	margin-top: 50px;
+}
+
+#TrainingsLogoFrame{
+	margin-top: 45px;
+	border:4px solid white;
+	width: 404px;
+}
+
+#TrainingsLogoFrame:hover{
+	border:4px solid rgb(104,140,135);
+}
+
+#TrainingsLogo{
+	background-color: rgb(104,140,135);
+	cursor: pointer;
+}
+
+#TrainingsLogo>img{
+	margin-top: 50px;
+	margin-left: 83px;
+}
+
+.square>p{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	/*line-height: auto;*/
+	margin-top: 30px;
+	font-size: 48px;
+	color: rgb(255,255,255);
+}
+
+#second{
+	border: 5px solid rgb(158,163,91);
+	border-left: none;
+	border-right: none; 
+	display: inline-flex; 
+}
+
+#second>div{
+	width: 800px;
+	height: 795px;
+}
+
+#itWorkingAreaDesription{
+	background-color: rgb(158,163,91);
+	font-family: 'Rajdhani', sans-serif;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#itWorkingAreaDesription>h2{
+	margin-top: 70px;
+	font-size: 62px;
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+	font-weight: normal;	
+}
+
+#itWorkingAreaDesription>p{
+	font-weight: bold;
+	font-size:24px;
+	line-height:30px;
+	letter-spacing:1px;
+	color: rgb(255,255,255);
+	text-align: justify;
+	margin-top: 20px;
+}
+
+#itWorkingAreaDesription>button{
+	border: 4px solid rgb(255,255,255);
+	background-color: rgb(158,163,91);
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+	margin-top: 50px;
+	cursor: pointer;
+	width: 303px;
+	height:64px;
+	outline: none;
+}
+
+#itWorkingAreaDesription>button:hover{
+	color: rgb(158,163,91);
+	background-color: rgb(255,255,255);
+	border: 4px solid rgb(158,163,91);
+}
+
+#itWorkingAreaPhoto>img{
+	margin-top: 47px;
+	margin-left: 55px;
+	width: 701px;
+	height: 701px;
+}
+
+#contactUs{
+	font-family: 'Rajdhani', sans-serif;
+	background: white;
+	margin-bottom: 100px;
+}
+
+#contactUs>h1{
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 48px;
+	letter-spacing: 1px;
+	/*line-height: auto;*/
+	color: rgb(51,51,51);
+}
+
+#contactUs>div{
+	width: 754px;
+	margin-left: 423px;
+	margin-top: 30px;
+}
+
+#contactUs>div>p{
+	color: rgb(119,119,119);
+	font-weight: bold;
+	font-size: 20px;
+	line-height:25px;
+	letter-spacing:1px;	
+    text-align: center;
+}
+
+#mapLocation{
+	height: 80px;
+	background-color: rgb(59,83,107);
+	padding-top: 20px;
+}
+
+#mapLocation>div{
+	height: 40px;
+    width: 320px;
+    margin-left: 640px;
+    padding-top: 4px;
+    display: inline-flex;
+}
+
+#mapLocation>div>section>p{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	/*line-height: auto;*/
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+#locationLogo{
+	margin-right: 20px;
+	margin-top: -4px;
+	
+}
+#locationText{
+	margin-bottom: -7px;
+}
+
+#mapLocation>div>img{
+	position: absolute;
+	top: 5px;
+}
+
+footer{
+	height: 801px;
+	background-color: rgb(219,220,221);
+	display: flex; 
+}
+
+footer>section{
+	width: 800px;
+	margin-top: 68px;
+	height: 670px;
+	padding-left: 50px;
+}
+
+form>input{
+	display: block;
+	width: 700px;
+	border: 1px solid rgb(65,65,65);
+	margin-bottom: 19px;
+	height: 59px;
+	color: rgb(65,65,65);
+	padding-left: 14px;
+	font-size: 24px;
+	font-family: 'Rajdhani', sans-serif;
+	line-height: 28px;
+	outline: none;
+	background-color: rgb(219,220,221); 
+	font-weight: bold;
+}
+
+textarea{
+	color: rgb(65,65,65);
+	padding-left: 14px;
+	padding-top: 17px;
+	height: 149px;
+	width: 700px;
+	background-color: rgb(219,220,221);
+	border: 1px solid rgb(65,65,65); 
+	font-size: 24px;
+	font-family: 'Rajdhani', sans-serif;
+	line-height: 28px;
+	font-weight: bold;
+	resize: none;
+	outline: none;
+}
+
+form>input[type="submit"]{
+
+	margin-top: 49px;
+	margin-bottom: 100px;
+	width: 300px;
+	cursor: pointer;
+}
+form>input[type="submit"]:hover{
+	background-color: rgb(65,65,65);
+	color: rgb(219,220,221);
+}
+
+#infoCont>div{
+	margin-bottom: 30px;
+	margin-left: 108px;
+	width: 600px;
+}
+
+#infoCont>div>p{
+	display: inline-flex;
+}
+
+.info{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 28.13px;
+	line-height: 28.13px;
+	letter-spacing: 1px;
+	color: rgb(65,65,65);
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: -10px
+}
+
+.infoMore{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 24.11px;
+	line-height: 25.11px;
+	letter-spacing: 1px;
+	color: rgb(119,119,119);
+	margin-left: 62px;
+	margin-top: 22px;
+}
+
+
+#socLinks{
+	width: 1500px;
+	border-top:1px solid  rgb(75,75,75);
+	margin-top: 670px;
+	margin-left: 50px;
+	position:absolute; 
+}
+#socLinks>section{
+	display: inline-flex;
+	width: 600px;	
+	
+}
+#socLinks>section>p{
+	font-size: 24px;
+	line-height: 28.13px;
+	letter-spacing: 1px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+	color: rgb(65,65,65);
+
+}
+#socNet>div{
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 20px;
+	width: 30px;
+}
+
+#socNet{
+	margin-left: 295px;
+	margin-top: 28px;
+	padding-left: 260px;
+
+}
+
