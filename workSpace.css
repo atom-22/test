@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-	width: 1600px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -21,14 +21,13 @@ header>div{
 }
 
 #input{
-	margin-left: 1396px;
+	margin-left: 87.25%;
 }
 
 #input p{
 	display: inline-block;
 	font-size: 18px;
 	letter-spacing: 1px;
-	/*line-height: auto;*/
 	color: rgb(51,51,51);
 	font-family: 'Rajdhani', sans-serif;
 }
@@ -51,7 +50,6 @@ header>div{
 
 #accel{
 	font-size: 8.9px;
-	/*line-height: auto;*/
 	letter-spacing: 0.89px;
 	font-stretch: condensed;
 	font-family: 'Open Sans', sans-serif;
@@ -118,7 +116,6 @@ a{
 
 #first>h1{
 	font-size: 48px;
-	/*line-height: auto;*/
 	letter-spacing: 1px;
 	font-weight: normal;
 	text-align: center;
@@ -223,7 +220,6 @@ a{
 .square>p{
 	font-family: 'Rajdhani', sans-serif;
 	text-align: center;
-	/*line-height: auto;*/
 	margin-top: 30px;
 	font-size: 48px;
 	color: rgb(255,255,255);
@@ -304,7 +300,6 @@ a{
 	text-align: center;
 	font-size: 48px;
 	letter-spacing: 1px;
-	/*line-height: auto;*/
 	color: rgb(51,51,51);
 }
 
@@ -341,7 +336,6 @@ a{
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
-	/*line-height: auto;*/
 	letter-spacing: 1px;
 	color: rgb(255,255,255);
 	text-align: center;
