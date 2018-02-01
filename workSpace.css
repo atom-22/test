@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-	width: 100%;
+	width: 1600px;
 	margin: 0 auto;
 }
 
@@ -335,7 +335,7 @@ a{
 #mapLocation>div>section>p{
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	color: rgb(255,255,255);
 	text-align: center;
